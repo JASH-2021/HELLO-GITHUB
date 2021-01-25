@@ -1,0 +1,67 @@
+.hellogit{
+    color: #ffffff67;
+ margin-top: 20rem;
+ margin-left: 5rem;
+  text-align: center;
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+  /* border-radius: 150px; */
+  
+    
+}
+
+body{
+    background-color: #000000;
+}
+
+@keyframes glow {
+    0%{
+    text-shadow: 
+    0 0 20px #fff, 
+    0 0 10px #8f00fc, 
+    0 0 20px #8f00fc, 
+    0 0 30px #8f00fc, 
+    0 0 40px #8f00fc, 
+    0 0 50px #8f00fc, 
+    0 0 60px #8f00fc;
+    }
+    25% {
+    text-shadow: 
+    0 0 5px #fff, 
+    0 0 10px #fff, 
+    0 0 15px #e60073, 
+    0 0 20px #e60073, 
+    0 0 25px #e60073, 
+    0 0 30px #e60073, 
+    0 0 35px #e60073;
+  }
+  
+  50% {
+    text-shadow: 0 0 20px #fff, 
+    0 0 10px #5cff4d, 
+    0 0 20px #5cff4d, 
+    0 0 30px #5cff4d, 
+    0 0 40px #5cff4d, 
+    0 0 50px #5cff4d, 
+    0 0 60px #5cff4d;
+  }
+  75% {
+    text-shadow: 0 0 20px #fff, 
+    0 0 10px #0000ff, 
+    0 0 20px #0000ff, 
+    0 0 30px #0000ff, 
+    0 0 40px #0000ff, 
+    0 0 50px #0000ff, 
+    0 0 60px #0000ff;
+  }
+  100% {
+    text-shadow: 0 0 20px #fff, 
+    0 0 10px #05eafac7, 
+    0 0 20px #05eafa, 
+    0 0 30px #05eafa, 
+    0 0 40px #05eafa, 
+    0 0 50px #05eafa, 
+    0 0 60px #05eafa;
+  }
+}
